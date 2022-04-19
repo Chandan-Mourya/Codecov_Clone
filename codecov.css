@@ -1,0 +1,380 @@
+/* CODECOV */
+body {
+    background-color: #f8f9fa;
+}
+head,body{
+    padding: 0px;
+    margin: 0px;
+}
+#container {
+    margin: auto ;
+    font-family: 'Poppins', sans-serif;  
+}
+.collapsible{
+    display: none;
+}
+.row-1 {
+    padding-top: 10px ;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.row-1 > a {
+    margin: 10px;
+    font-size: 18px;
+    width: 20%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+.signup {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+}
+.logo {
+    width: 160px;
+    padding: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+.row-2 {
+    display: flex;
+    margin: auto;
+    width: 65%;
+}
+.row-2-content> h1{
+    font-size: 48px;
+    margin-top: 75px;
+    font-weight: 800 ;
+    text-align: left;
+
+}
+.content-pink-h1 {
+    color: #f72585;
+    padding: 0px;
+    margin: 0px;
+}
+.content-pink{
+    color: #f72585;
+    padding: 0px;
+    margin: 0px;
+    background-color: pink;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row-2-content > p {
+    font-size: 14px;
+}
+.row-2-img {
+    width: 50%;
+    height: 30%;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.row-3 {
+    display: flex;
+    margin: auto;
+    width: 60%;
+}
+.row-3 > button, .row-12 > button{
+    width: 15%;
+    margin: 3px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+}
+ .row-3 > button > img, .row-12 > button > img {
+    width: 25%; 
+    margin-right: 5px ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+.row-4 {
+    width: 50%;
+    margin: auto;
+}
+.row-4-1 {
+    text-align: center;
+    color: gray;
+}
+.row-4-2 > a{
+    padding: 10px;
+    color: gray;
+    margin: 5px;
+}
+.row-4-2 {
+    margin-bottom: 170px;
+}
+.row-5, .row-6 {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 170px;
+}
+.row-5-1 > img{
+    width: 150%;
+}
+.row-5-2 {
+    width: 350px;
+    padding-left: 250px;
+    font-size: 14px;
+}
+.row-6-1 {
+    width: 40%;
+} h1 {
+    text-align: center;
+}
+.row-6-1 > button {
+    width: 70%;
+    border-radius: 50px;
+    background-color: rgb(235, 199, 235);
+    border: rgb(235, 199, 235) 1px solid;
+    color: black;
+    margin: 10px;
+}
+.row-6-2 {
+    width: 60%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.row-6-2 > p {
+    margin: 5px;
+}
+
+.row-6-2 > ul > li, .row-6-span {
+    color: #f72585;
+}
+.row-7 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.row-8 {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.row-8 > img {
+    width: 50%;
+    padding: 5px;
+}
+.row-8-1 > a, .row-8-2 > a, .row-8-3 > a, .row-8-4 > a{
+text-decoration: none;
+color: teal ;
+background-color: #caf0f8;
+padding: 2px;
+border-radius: 5px;
+font-size: 12px;
+margin: 1px;
+}
+.row-8-1, .row-8-2, .row-8-3, .row-8-4 {
+    padding: 5px;
+}
+.row-9, .row-10 {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 200px;
+}
+.row-9 > a {
+    color: white;
+    background-color: #f72585;
+    padding: 12px;
+    border: #f72585 1px solid;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.row-9 > p {
+    margin-bottom: 30px;
+}
+.row-10 > a {
+    text-decoration: none;
+    color: #f72585;
+}
+.row-11 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.row-11 > div {
+    width: 33%;
+    margin: 15px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.row-11 > div > img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+.row-11 >div > img + p{
+    margin: 15px;
+    color: #f72585;
+    background-color: rgb(235, 199, 235);
+    width: 110px;
+    text-align: center;
+    border-radius: 5px;
+}
+.row-11 >div > h4 {
+    margin: 15px;
+    font-weight: bolder;
+}
+.row-11 > div > a  {
+    color: #f72585;
+    text-align: center;
+    padding: 15px ;
+    text-decoration: none;
+    font-size: 14px;
+}
+.row-12 {
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin-top: 75px;
+    padding: 25px;
+}
+.row-12 > button{
+    width: 25%;
+}
+.row-13 {
+    margin: auto;
+    margin-top: 75px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-left: 140px;
+    display: flex;
+}
+.row-13 > div~h4, .row-13>div>h4~p {
+    margin: 0%;
+    padding: 5px;
+    font-size: 14px;
+}
+.row-13 > div {
+    width: 16%;
+}
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+    #container {
+        flex-direction: column;
+    }
+    .row-1 {
+        display: none;
+    }
+    .logo {
+        padding: 0px;
+        margin: auto;
+    }
+    .collapsible {
+        cursor: pointer;
+        padding: 18px;
+        border: none;
+        text-align: right;
+        outline: none;
+        font-size: 15px;
+        display: block;
+        background-color: rgb(235, 199, 235);
+    }
+    .collapsible > button {
+        color: #f72585;
+        border: #f72585 1px solid;
+        border-radius: 5px;
+        background-color: rgb(235, 199, 235);
+        width: 50px;
+        text-align: center;
+    }
+    .collapsible > a {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+        text-align: center;
+        margin: auto;
+      }
+    .active, .collapsible:hover {
+        background-color: rgb(235, 199, 235);
+      }
+    .row-2 {
+        flex-direction: column;
+    }
+    .row-2-img {
+        width: 100%;
+        padding: 0px;
+    }
+    .row-3 {
+        flex-direction: row;
+    }
+    .row-3 > button {
+        flex-basis: 200px;
+        margin-top: 25px;
+    }
+    .row-4 {
+        display: flex;
+        flex-direction: column;
+    }
+    .row-4-2 > a {
+        flex-direction: column;
+        flex-basis: auto;
+    }
+    .row-5 {
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .row-5-1 > img {
+        width: 75%;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .row-5-2 {
+        padding: 0px;
+        text-align: center;
+        margin-left: 20px;
+        margin: auto;
+
+    }
+    .row-8 {
+        flex-direction: column;
+    }
+    .row-8 > img  {
+        width: 75%;
+        margin-left: 30px;
+    }
+    .row-11 {
+        flex-direction: column-reverse;
+        flex-grow: 1;
+        flex-basis: auto;
+    }
+    .row-11 > div {
+        width: 75%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .row-12 {
+        width: 70%;
+    }
+    .row-13 {
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+    }
+    .row-13 >  div {
+        margin: auto;
+        
+    }
+} 
